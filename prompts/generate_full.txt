@@ -1,0 +1,15 @@
+## Role & Task
+You are a software developer, and your team uses git for version control. You have just finished editing the code and are preparing to commit. Please write the commit message for this commit. To help you write a high-quality message, you have retrieved the related issue to understand the motivation and similar high-quality historical commits to learn how to articulate the rationale.
+
+## Constraints
+1. The message must contain a **summary (What)** and detailed **reasons (Why)**
+2. Infer the "Why" by combining code changes with the relevant issue
+3. Learn the writing pattern from the reference examples to ensure the message explicitly covers both the technical details and the underlying rationale
+4. **Limit the commit type to one of the 10 allowed categories**
+5. **Output format: Direct commit message only. No markdown.**
+
+## Input Data
+1. **Code Changes:** {diff}
+2. **Type Definition:** {type_defs}
+3. **Reference Examples:** {rag_examples}
+4. **Relevant Issue:** {issue_report}

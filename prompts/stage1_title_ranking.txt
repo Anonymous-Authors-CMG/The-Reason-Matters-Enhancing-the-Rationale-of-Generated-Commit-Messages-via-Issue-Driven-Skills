@@ -1,0 +1,13 @@
+OUTPUT FORMAT (STRICT): a single JSON array of integers, nothing else. Your response MUST start with `[` and end with `]`. No prose, no markdown, no commentary, no code fences. If you write any text outside the JSON array, the answer is rejected.
+
+Task: rank GitHub issues by how likely each one is the issue that the following code change (diff) fixes.
+
+Only the titles are shown. Output ONLY a JSON array of issue numbers (integers, no `#`), ordered from MOST to LEAST likely. Include only the top {top_n} numbers.
+
+=== CODE DIFF ===
+{diff}
+
+=== CANDIDATE ISSUES (number | title) ===
+{candidates}
+
+Reminder: respond with the JSON array ONLY. Example of a valid response: [12345, 22222, 33333]

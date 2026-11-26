@@ -1,0 +1,28 @@
+# Mined GitHub data (several GB per repository): rebuild with src/mine_links.py
+raw/
+
+# Per-call prompts and raw model replies written by the scripts
+logs/
+
+# Embedding caches and new runs (published results are under results/ and data/)
+cache/
+results/runs/
+*.partial
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.claude/

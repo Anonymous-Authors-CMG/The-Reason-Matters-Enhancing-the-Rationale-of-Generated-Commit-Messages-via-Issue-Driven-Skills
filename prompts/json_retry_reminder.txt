@@ -1,0 +1,7 @@
+
+
+[STRICT FORMAT REMINDER]
+Your previous response was rejected because it was not a valid JSON array.
+Respond with ONLY a JSON array of integers, e.g. [123, 456, 789].
+Do NOT include any explanation, prose, markdown, or code fences.
+The first character of your response MUST be '[' and the last MUST be ']'.

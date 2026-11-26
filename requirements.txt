@@ -1,0 +1,5 @@
+# Everything except the RAG retrieval step uses only the Python standard library (3.9+).
+# Needed only for src/rag_retrieval.py:
+numpy>=1.24
+sentence-transformers>=3.0
+torch>=2.1

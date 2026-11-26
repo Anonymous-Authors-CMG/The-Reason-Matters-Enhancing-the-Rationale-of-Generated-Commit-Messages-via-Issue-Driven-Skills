@@ -1,0 +1,10 @@
+1) feature (feat/feat+): Code changes aim to introduce new features to the codebase, encompassing both internal and user-oriented features.
+2) fix: Code changes aim to fix bugs and faults within the codebase.
+3) performance (perf): Code changes aim to improve performance, such as enhancing execution speed or reducing memory consumption.
+4) style: Code changes aim to improve readability without affecting the meaning of the code. This type encompasses aspects like variable naming, indentation, and addressing linting or code analysis warnings.
+5) refactor: Code changes aim to restructure the program without changing its behavior, aiming to improve maintainability. To avoid confusion and overlap, we propose the constraint that this category does not include changes classified as "perf" or "style". Examples include enhancing modularity, refining exception handling, improving scalability, conducting code cleanup, and removing deprecated code.
+6) documents (docs): Code changes that modify documentation or text, such as correcting typos, modifying comments, or updating documentation.
+7) test: Code changes that modify test files, including the addition or updating of tests.
+8) ci: Code changes to CI (Continuous Integration) configuration files and scripts, such as configuring or updating CI/CD scripts, e.g., ".travis.yml" and ".github/workflows".
+9) build: Code changes affecting the build system (e.g., Maven, Gradle, Cargo). Change examples include updating dependencies, configuring build configurations, and adding scripts.
+10) chore: Code changes for other miscellaneous tasks that do not neatly fit into any of the above categories.
